@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import {Carrosel} from 'C:/Users/dfsmc/Documents/Portfolio/portfolio/src/components/sla'
 
 export default function Home() {
   return (
@@ -10,33 +11,12 @@ export default function Home() {
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            <carrosel></carrosel>
         </div>
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <Carrosel></Carrosel>
       </div>
 
       <div className={styles.grid}>
