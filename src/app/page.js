@@ -15,7 +15,7 @@
       <text class="subTit">Meu nome é Alex Tenho 17 anos e estou no último ano do Ensino Médio e do meu curso técnico. Sempre tive interesse em atividades que envolvessem lógica e raciocínio estruturado, o que acabou me levando para a programação
       </text>
       <h1 class="titul">
-          Sobre Mim
+          Sobre Mime
         </h1>
         <text class="subTit"> Estou no começo da minha jornada na programação, mas sempre estou em busca de aprender e aprimorar minhas habilidades. Ainda estou decidindo o que farei de faculdade, estou entre Ciência da Computação e Engenharia de Software, mas em geral meu objetivo é me aprofundar no desenvolvimento. Gosto de desafios, aprender coisas novas e tirar as ideias do papel e transforma-lás em realidade através da tecnologia
         </text>

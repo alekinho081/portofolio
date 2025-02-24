@@ -10,7 +10,7 @@ export const Carrosel = () => (
     <Text size="small">
       The Carousel slides will transition every 3 seconds
     </Text>
-    <Carousel controls={false} play={3000}>
+    <Carousel controls={false} play={3001}>
       <Box pad="xlarge" background="pink">
         <Attraction color="light-2" size="xlarge" />
       </Box>

@@ -3,7 +3,7 @@ import React from 'react';
 import { Avatar, Anchor, Box, Header, Nav } from 'grommet';
 
 const items = [
-  { label: 'Sobre Mim', href: '#' },
+  { label: 'Sobre Mim', href: '#e' },
   { label: 'Formação', href: '#' },
   { label: 'Experiências', href: '#' },
   { label: 'REACT', href: '#' },
