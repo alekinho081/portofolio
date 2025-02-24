@@ -1,75 +1,41 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import {Carrosel} from 'C:/Users/dfsmc/Documents/Portfolio/portfolio/src/components/sla'
+  import Image from 'next/image'
+  import styles from './page.module.css'
+  import Carossel, {Carrosel} from '../components/Carossel'
+  import {Cabecalhs} from '../components/cabecalho'
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-            <carrosel></carrosel>
+  export default function Home(){
+    return <div id="bod">
+      <header>
+        <Cabecalhs></Cabecalhs>
+      </header>
+      <div id="bemvin">
+      <h1 class="titul">
+        Seja Bem Vindo
+      </h1>
+      <text class="subTit">Meu nome é Alex Tenho 17 anos e estou no último ano do Ensino Médio e do meu curso técnico. Sempre tive interesse em atividades que envolvessem lógica e raciocínio estruturado, o que acabou me levando para a programação
+      </text>
+      <h1 class="titul">
+          Sobre Mim
+        </h1>
+        <text class="subTit"> Estou no começo da minha jornada na programação, mas sempre estou em busca de aprender e aprimorar minhas habilidades. Ainda estou decidindo o que farei de faculdade, estou entre Ciência da Computação e Engenharia de Software, mas em geral meu objetivo é me aprofundar no desenvolvimento. Gosto de desafios, aprender coisas novas e tirar as ideias do papel e transforma-lás em realidade através da tecnologia
+        </text>
+        <div class="container-imagem">
+            <Image
+            src="/alexFoto.jpg"
+            width={500}
+            height={500}
+            alt="Foto"
+            id="fotoSbr"
+            />
         </div>
       </div>
+  
 
-      <div className={styles.center}>
-        <Carrosel></Carrosel>
-      </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+
+    </div>
+
+  }
